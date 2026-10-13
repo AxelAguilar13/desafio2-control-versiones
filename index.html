@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de Versiones | Git y GitHub</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f6fa;
+            color: #253047;
+        }
+        header {
+            background: #172b4d;
+            color: white;
+            padding: 45px 20px;
+            text-align: center;
+        }
+        header h1 { margin-bottom: 10px; }
+        header p { color: #ced9ea; }
+        main {
+            max-width: 950px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .intro { text-align: center; margin-bottom: 35px; }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            border: 1px solid #e1e6ef;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+        .card h3 { color: #2457a6; }
+        .card p { line-height: 1.6; }
+        footer {
+            text-align: center;
+            padding: 25px;
+            margin-top: 50px;
+            color: #667085;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Control de Versiones</h1>
+        <p>Proyecto demostrativo de Git y GitHub</p>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Herramientas para el desarrollo de software</h2>
+            <p>Conoce los conceptos básicos del control de versiones.</p>
+        </section>
+
+        <section class="cards">
+            <article class="card">
+                <h3>Git</h3>
+                <p>Sistema distribuido que permite registrar
+                y administrar los cambios de un proyecto.</p>
+            </article>
+
+            <article class="card">
+                <h3>GitHub</h3>
+                <p>Plataforma que permite alojar repositorios
+                y colaborar en proyectos de software.</p>
+            </article>
+
+            <article class="card">
+                <h3>Commits</h3>
+                <p>Registros que permiten conservar el historial
+                de modificaciones realizadas en el código.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Universidad Don Bosco | Desafío 2 - ADS</p>
+    </footer>
+</body>
+</html>
